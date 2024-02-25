@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		24C0BC472B89B25F006FF031 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 24C0BC462B89B25F006FF031 /* RealityKitContent */; };
-		24C0BC492B89B25F006FF031 /* ar_first_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC482B89B25F006FF031 /* ar_first_gameApp.swift */; };
+		24C0BC492B89B25F006FF031 /* ARFirstGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC482B89B25F006FF031 /* ARFirstGameApp.swift */; };
 		24C0BC4B2B89B25F006FF031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC4A2B89B25F006FF031 /* ContentView.swift */; };
 		24C0BC4D2B89B260006FF031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC4C2B89B260006FF031 /* Assets.xcassets */; };
 		24C0BC502B89B260006FF031 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC4F2B89B260006FF031 /* Preview Assets.xcassets */; };
 		24C0BC5B2B89B260006FF031 /* ar_first_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */; };
 		24C0BC682B89CBDE006FF031 /* test.scn in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC672B89CBDE006FF031 /* test.scn */; };
+		24C0BC6A2B8ADA06006FF031 /* ImmersiveSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC692B8ADA06006FF031 /* ImmersiveSpaceView.swift */; };
+		24C0BC6C2B8AE27D006FF031 /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC6B2B8AE27D006FF031 /* Volume.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,7 @@
 /* Begin PBXFileReference section */
 		24C0BC412B89B25F006FF031 /* ar-first-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-first-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0BC452B89B25F006FF031 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		24C0BC482B89B25F006FF031 /* ar_first_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_first_gameApp.swift; sourceTree = "<group>"; };
+		24C0BC482B89B25F006FF031 /* ARFirstGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFirstGameApp.swift; sourceTree = "<group>"; };
 		24C0BC4A2B89B25F006FF031 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24C0BC4C2B89B260006FF031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C0BC4F2B89B260006FF031 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -37,6 +39,8 @@
 		24C0BC562B89B260006FF031 /* ar-first-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-first-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_first_gameTests.swift; sourceTree = "<group>"; };
 		24C0BC672B89CBDE006FF031 /* test.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = test.scn; sourceTree = "<group>"; };
+		24C0BC692B8ADA06006FF031 /* ImmersiveSpaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmersiveSpaceView.swift; sourceTree = "<group>"; };
+		24C0BC6B2B8AE27D006FF031 /* Volume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,13 @@
 		24C0BC432B89B25F006FF031 /* ar-first-game */ = {
 			isa = PBXGroup;
 			children = (
-				24C0BC482B89B25F006FF031 /* ar_first_gameApp.swift */,
+				24C0BC692B8ADA06006FF031 /* ImmersiveSpaceView.swift */,
+				24C0BC482B89B25F006FF031 /* ARFirstGameApp.swift */,
 				24C0BC4A2B89B25F006FF031 /* ContentView.swift */,
 				24C0BC4C2B89B260006FF031 /* Assets.xcassets */,
 				24C0BC512B89B260006FF031 /* Info.plist */,
 				24C0BC4E2B89B260006FF031 /* Preview Content */,
+				24C0BC6B2B8AE27D006FF031 /* Volume.swift */,
 			);
 			path = "ar-first-game";
 			sourceTree = "<group>";
@@ -227,7 +233,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C0BC4B2B89B25F006FF031 /* ContentView.swift in Sources */,
-				24C0BC492B89B25F006FF031 /* ar_first_gameApp.swift in Sources */,
+				24C0BC6A2B8ADA06006FF031 /* ImmersiveSpaceView.swift in Sources */,
+				24C0BC492B89B25F006FF031 /* ARFirstGameApp.swift in Sources */,
+				24C0BC6C2B8AE27D006FF031 /* Volume.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

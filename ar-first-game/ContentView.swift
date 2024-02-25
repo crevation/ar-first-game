@@ -10,21 +10,27 @@ import RealityKitContent
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.openImmersiveSpace) var openImmersiveSpace
+    @Environment(\.openImmersiveSpace) private var openImmersiveSpace
     var body: some View {
-        VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
+                    Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
+        //     NavigationStack {
+        // // VStack {
+        //     Model3D(named: "Scene", bundle: realityKitContentBundle)
+        //         .padding(.bottom, 50)
 
-            Button("Enter Immersive Space") {
-                Task {
-                    await openImmersiveSpace(id: "myImmersiveSpace")
-                }
-            }
+        //     // Button("Enter Immersive Space") {
+        //     //     Task {
+        //     //         await openImmersiveSpace(id: "myImmersiveSpace")
+        //     //     }
+        //     // }
 
-            Text("Hello, world!")
-        }
-        .padding()
+        //         NavigationLink("Volume", destination: VolumeView()).navigationTitle("next")
+
+        //     Text("Hello, world!")
+        // // }
+        // // .padding()
+        //     }
     }
 }
 
