@@ -12,10 +12,14 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
     @State private var rotation = Angle.zero
+    @State private var count = 0
     var body: some View {
+        Text("count:"+String(count))
+        
         Model3D(named: "Scene", bundle: realityKitContentBundle)        { model in
             model.rotation3DEffect(rotation, axis: .x).onTapGesture {
                                 withAnimation(.bouncy) {
+                                    count+=1
                                     print("test animation")
                                     rotation.degrees+=randomRotation()
                                 }
