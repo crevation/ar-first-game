@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		24C0BC472B89B25F006FF031 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 24C0BC462B89B25F006FF031 /* RealityKitContent */; };
-		24C0BC492B89B25F006FF031 /* ARFirstGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC482B89B25F006FF031 /* ARFirstGameApp.swift */; };
+		24C0BC492B89B25F006FF031 /* ARGame01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC482B89B25F006FF031 /* ARGame01App.swift */; };
 		24C0BC4B2B89B25F006FF031 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC4A2B89B25F006FF031 /* ContentView.swift */; };
 		24C0BC4D2B89B260006FF031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC4C2B89B260006FF031 /* Assets.xcassets */; };
 		24C0BC502B89B260006FF031 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC4F2B89B260006FF031 /* Preview Assets.xcassets */; };
@@ -29,14 +29,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24C0BC412B89B25F006FF031 /* ar-first-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ar-first-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C0BC412B89B25F006FF031 /* argame01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = argame01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0BC452B89B25F006FF031 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		24C0BC482B89B25F006FF031 /* ARFirstGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARFirstGameApp.swift; sourceTree = "<group>"; };
+		24C0BC482B89B25F006FF031 /* ARGame01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARGame01App.swift; sourceTree = "<group>"; };
 		24C0BC4A2B89B25F006FF031 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24C0BC4C2B89B260006FF031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24C0BC4F2B89B260006FF031 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		24C0BC512B89B260006FF031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24C0BC562B89B260006FF031 /* ar-first-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-first-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C0BC562B89B260006FF031 /* argame01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = argame01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_first_gameTests.swift; sourceTree = "<group>"; };
 		24C0BC672B89CBDE006FF031 /* test.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = test.scn; sourceTree = "<group>"; };
 		24C0BC692B8ADA06006FF031 /* ImmersiveSpaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmersiveSpaceView.swift; sourceTree = "<group>"; };
@@ -66,9 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				24C0BC642B89C930006FF031 /* assets */,
-				24C0BC432B89B25F006FF031 /* ar-first-game */,
+				24C0BC432B89B25F006FF031 /* argame01 */,
 				24C0BC442B89B25F006FF031 /* Packages */,
-				24C0BC592B89B260006FF031 /* ar-first-gameTests */,
+				24C0BC592B89B260006FF031 /* argame01Tests */,
 				24C0BC422B89B25F006FF031 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,24 +76,24 @@
 		24C0BC422B89B25F006FF031 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				24C0BC412B89B25F006FF031 /* ar-first-game.app */,
-				24C0BC562B89B260006FF031 /* ar-first-gameTests.xctest */,
+				24C0BC412B89B25F006FF031 /* argame01.app */,
+				24C0BC562B89B260006FF031 /* argame01Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		24C0BC432B89B25F006FF031 /* ar-first-game */ = {
+		24C0BC432B89B25F006FF031 /* argame01 */ = {
 			isa = PBXGroup;
 			children = (
 				24C0BC692B8ADA06006FF031 /* ImmersiveSpaceView.swift */,
-				24C0BC482B89B25F006FF031 /* ARFirstGameApp.swift */,
+				24C0BC482B89B25F006FF031 /* ARGame01App.swift */,
 				24C0BC4A2B89B25F006FF031 /* ContentView.swift */,
 				24C0BC4C2B89B260006FF031 /* Assets.xcassets */,
 				24C0BC512B89B260006FF031 /* Info.plist */,
 				24C0BC4E2B89B260006FF031 /* Preview Content */,
 				24C0BC6B2B8AE27D006FF031 /* Volume.swift */,
 			);
-			path = "ar-first-game";
+			path = argame01;
 			sourceTree = "<group>";
 		};
 		24C0BC442B89B25F006FF031 /* Packages */ = {
@@ -112,12 +112,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		24C0BC592B89B260006FF031 /* ar-first-gameTests */ = {
+		24C0BC592B89B260006FF031 /* argame01Tests */ = {
 			isa = PBXGroup;
 			children = (
 				24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */,
 			);
-			path = "ar-first-gameTests";
+			path = argame01Tests;
 			sourceTree = "<group>";
 		};
 		24C0BC642B89C930006FF031 /* assets */ = {
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		24C0BC402B89B25F006FF031 /* ar-first-game */ = {
+		24C0BC402B89B25F006FF031 /* argame01 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24C0BC5E2B89B260006FF031 /* Build configuration list for PBXNativeTarget "ar-first-game" */;
+			buildConfigurationList = 24C0BC5E2B89B260006FF031 /* Build configuration list for PBXNativeTarget "argame01" */;
 			buildPhases = (
 				24C0BC3D2B89B25F006FF031 /* Sources */,
 				24C0BC3E2B89B25F006FF031 /* Frameworks */,
@@ -143,17 +143,17 @@
 			);
 			dependencies = (
 			);
-			name = "ar-first-game";
+			name = argame01;
 			packageProductDependencies = (
 				24C0BC462B89B25F006FF031 /* RealityKitContent */,
 			);
 			productName = "ar-first-game";
-			productReference = 24C0BC412B89B25F006FF031 /* ar-first-game.app */;
+			productReference = 24C0BC412B89B25F006FF031 /* argame01.app */;
 			productType = "com.apple.product-type.application";
 		};
-		24C0BC552B89B260006FF031 /* ar-first-gameTests */ = {
+		24C0BC552B89B260006FF031 /* argame01Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 24C0BC612B89B260006FF031 /* Build configuration list for PBXNativeTarget "ar-first-gameTests" */;
+			buildConfigurationList = 24C0BC612B89B260006FF031 /* Build configuration list for PBXNativeTarget "argame01Tests" */;
 			buildPhases = (
 				24C0BC522B89B260006FF031 /* Sources */,
 				24C0BC532B89B260006FF031 /* Frameworks */,
@@ -164,9 +164,9 @@
 			dependencies = (
 				24C0BC582B89B260006FF031 /* PBXTargetDependency */,
 			);
-			name = "ar-first-gameTests";
+			name = argame01Tests;
 			productName = "ar-first-gameTests";
-			productReference = 24C0BC562B89B260006FF031 /* ar-first-gameTests.xctest */;
+			productReference = 24C0BC562B89B260006FF031 /* argame01Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 24C0BC3C2B89B25F006FF031 /* Build configuration list for PBXProject "ar-first-game" */;
+			buildConfigurationList = 24C0BC3C2B89B25F006FF031 /* Build configuration list for PBXProject "argame01" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,8 +201,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				24C0BC402B89B25F006FF031 /* ar-first-game */,
-				24C0BC552B89B260006FF031 /* ar-first-gameTests */,
+				24C0BC402B89B25F006FF031 /* argame01 */,
+				24C0BC552B89B260006FF031 /* argame01Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,7 +234,7 @@
 			files = (
 				24C0BC4B2B89B25F006FF031 /* ContentView.swift in Sources */,
 				24C0BC6A2B8ADA06006FF031 /* ImmersiveSpaceView.swift in Sources */,
-				24C0BC492B89B25F006FF031 /* ARFirstGameApp.swift in Sources */,
+				24C0BC492B89B25F006FF031 /* ARGame01App.swift in Sources */,
 				24C0BC6C2B8AE27D006FF031 /* Volume.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,7 +252,7 @@
 /* Begin PBXTargetDependency section */
 		24C0BC582B89B260006FF031 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 24C0BC402B89B25F006FF031 /* ar-first-game */;
+			target = 24C0BC402B89B25F006FF031 /* argame01 */;
 			targetProxy = 24C0BC572B89B260006FF031 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,7 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ar-first-game/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"argame01/Preview Content\"";
 				DEVELOPMENT_TEAM = K25276ZT36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -410,7 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ar-first-game/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"argame01/Preview Content\"";
 				DEVELOPMENT_TEAM = K25276ZT36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,7 +445,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar-first-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar-first-game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/argame01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/argame01";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
@@ -466,7 +466,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ar-first-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ar-first-game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/argame01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/argame01";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
@@ -474,7 +474,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		24C0BC3C2B89B25F006FF031 /* Build configuration list for PBXProject "ar-first-game" */ = {
+		24C0BC3C2B89B25F006FF031 /* Build configuration list for PBXProject "argame01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24C0BC5C2B89B260006FF031 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24C0BC5E2B89B260006FF031 /* Build configuration list for PBXNativeTarget "ar-first-game" */ = {
+		24C0BC5E2B89B260006FF031 /* Build configuration list for PBXNativeTarget "argame01" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24C0BC5F2B89B260006FF031 /* Debug */,
@@ -492,7 +492,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		24C0BC612B89B260006FF031 /* Build configuration list for PBXNativeTarget "ar-first-gameTests" */ = {
+		24C0BC612B89B260006FF031 /* Build configuration list for PBXNativeTarget "argame01Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				24C0BC622B89B260006FF031 /* Debug */,
