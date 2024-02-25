@@ -11,9 +11,30 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.openImmersiveSpace) private var openImmersiveSpace
+    @State private var rotation = Angle.zero
     var body: some View {
-                    Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
+        Model3D(named: "Scene", bundle: realityKitContentBundle)        { model in
+            model.rotation3DEffect(rotation, axis: .x).onTapGesture {
+                                withAnimation(.bouncy) {
+                                    print("test animation")
+                                    rotation.degrees+=randomRotation()
+                                }
+            }
+//            model in model.model?.rotation3DEffect(
+//                .degrees(45),
+//                axis: (x: 0.0, y: 1.0, z: 0.0))
+//            .border(Color.gray).onTapGesture{
+//                withAnimation(.bouncy) {
+//                    print("test animation")
+//                    rotation.degrees+=randomRotation()
+//                }
+//            }
+//
+        } placeholder: {
+            ImmersiveSpaceView()
+        }
+        
+//                .padding(.bottom, 50)
         //     NavigationStack {
         // // VStack {
         //     Model3D(named: "Scene", bundle: realityKitContentBundle)
@@ -36,4 +57,8 @@ struct ContentView: View {
 
 #Preview(windowStyle: .automatic) {
     ContentView()
+}
+
+func randomRotation() -> Double {
+    return Double.random(in: 360...720)
 }
