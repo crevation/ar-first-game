@@ -13,6 +13,7 @@
 		24C0BC4D2B89B260006FF031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC4C2B89B260006FF031 /* Assets.xcassets */; };
 		24C0BC502B89B260006FF031 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC4F2B89B260006FF031 /* Preview Assets.xcassets */; };
 		24C0BC5B2B89B260006FF031 /* ar_first_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */; };
+		24C0BC682B89CBDE006FF031 /* test.scn in Resources */ = {isa = PBXBuildFile; fileRef = 24C0BC672B89CBDE006FF031 /* test.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 		24C0BC512B89B260006FF031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C0BC562B89B260006FF031 /* ar-first-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ar-first-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ar_first_gameTests.swift; sourceTree = "<group>"; };
+		24C0BC672B89CBDE006FF031 /* test.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = test.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		24C0BC382B89B25F006FF031 = {
 			isa = PBXGroup;
 			children = (
+				24C0BC642B89C930006FF031 /* assets */,
 				24C0BC432B89B25F006FF031 /* ar-first-game */,
 				24C0BC442B89B25F006FF031 /* Packages */,
 				24C0BC592B89B260006FF031 /* ar-first-gameTests */,
@@ -109,6 +112,14 @@
 				24C0BC5A2B89B260006FF031 /* ar_first_gameTests.swift */,
 			);
 			path = "ar-first-gameTests";
+			sourceTree = "<group>";
+		};
+		24C0BC642B89C930006FF031 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				24C0BC672B89CBDE006FF031 /* test.scn */,
+			);
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C0BC682B89CBDE006FF031 /* test.scn in Resources */,
 				24C0BC502B89B260006FF031 /* Preview Assets.xcassets in Resources */,
 				24C0BC4D2B89B260006FF031 /* Assets.xcassets in Resources */,
 			);

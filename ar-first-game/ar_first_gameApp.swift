@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct ar_first_gameApp: App {
+struct ARFirstGameApp: App {
+    @State private var currentStyle: ImmersionStyle = .full
+
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+
+        ImmersiveSpace(id: "myImmersiveSpace") {
+            ContentView()
+        }.immersionStyle(selection: $currentStyle, in: .full)
     }
 }
